@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {
+
+
+    :root {
+        --white: #ffffff;
+        --gray-light: #f5fbfc;
+        --gray-dark: #08090a;
+        --green: #35b8be;
+        --green-dark: #1b9097;
+        --green-light: #f5fbfc;
+        --blue-dark: #546285;
+    }
+
+
+    .tag {
+        display: block;
+        background: var(--green) url(../images/banner_wave.svg);
+        padding: 15px;
+        text-align: center;
+    }
+
+    .tag p {
+        font-size: 1.1rem;
+        color: var(--white);
+    }
+
+
+    /* Menu Burger  */
+
+    .menu-burger {
+        display: none;
+    }
+
+    /* Navigation Menu Desktop*/
+
+
+    .menu-desktop {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+}
